@@ -162,8 +162,8 @@
 }
 
 .menu ul li a:hover {
-    color: rgb(169, 46, 46);
-    cursor: pointer;
+  color: rgb(169, 46, 46);
+  cursor: pointer;
 }
 
 @media (max-width: 798px) {
@@ -173,22 +173,40 @@
   }
 
   .logo {
-      margin-left: -79px;
+    margin-left: -79px;
   }
 
   .toggle {
-      margin-right: -71px;
+    margin-right: -71px;
   }
 
   .menu {
-      width: 45%;
+    width: 45%;
   }
 
   .showcase.active {
-      right: 45%;
+    right: 45%;
   }
 
   .text h3 {
     font-size: 2em;
+  }
+}
+
+@media (max-width: 400px) {
+  .text h2 {
+    font-size: 15px;
+  }
+
+  .text h3 {
+    font-size: 1em;
+  }
+
+  .text p {
+    font-size: 10px;
+  }
+
+  .text a {
+    font-size: 0.5em;
   }
 }
